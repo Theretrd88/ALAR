@@ -946,7 +946,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .fadeIn {
-  display: flex;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
@@ -2743,4 +2742,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .rollOut {
   -webkit-animation-name: rollOut;
   animation-name: rollOut;
+}
+@media(max-width: 412px){
+
 }
